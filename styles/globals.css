@@ -5,17 +5,6 @@
   font-family: 'PolySans-Neutral';
 }
 
-:root {
-  /* Your default theme */
-  --background: white;
-  --foreground: black;
-}
-
-[data-theme='dark'] {
-  --background: black;
-  --foreground: white;
-}
-
 
 @font-face {
   font-family: "PolySans-Median";
