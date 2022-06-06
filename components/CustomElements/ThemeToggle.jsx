@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import { lightModeIcon, darkModeIcon } from '../../images'
 import style from '../../styles/CustomElements.module.css';
-import { useTheme } from 'next-themes'
 
 const ThemeToggle = () => {
 
- const { systemTheme, theme, setTheme } = useTheme();
  const [themeType, setThemeType] = useState('light');
 
  const currentTheme = theme === 'system' ? systemTheme : theme;
