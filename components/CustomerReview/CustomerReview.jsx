@@ -14,7 +14,7 @@ const CustomerReview = () => {
 
   return (
     <div className={style.customer__review__cnt} >
-      <h1>"Hear what happy customers are saying about Digift"</h1>
+      <h1>&ldquo;"Hear what happy customers are saying about Digift"&rdquo;</h1>
       <div className={style.customer__card__cnt} data-aos="fade-right" >
         <ReviewCard text="“Digift stood out from the crowd with an impressive team and even more impressive mission: harnessing the power of giftcards enterprises to support people who are restricted by banks in Nigeria.”" />
         <ReviewCard text="“Digift stood out from the crowd with an impressive team and even more impressive mission: harnessing the power of giftcards enterprises to support people who are restricted by banks in Nigeria. Digift stood out from the crowd with an impressive team and even more impressive mission ”" />
