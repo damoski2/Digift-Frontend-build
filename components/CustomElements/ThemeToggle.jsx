@@ -6,7 +6,6 @@ const ThemeToggle = () => {
 
  const [themeType, setThemeType] = useState('light');
 
- const currentTheme = theme === 'system' ? systemTheme : theme;
     
   return (
     <div className={style.theme__cnt} >
