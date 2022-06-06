@@ -16,7 +16,7 @@ const Filters = () => {
         <p>Categories</p>
         <div>
             {categories.map((category, index) =>
-                <div className={style.innermost__div} >
+                <div key={index} className={style.innermost__div} >
                     <input type="checkbox" />
                     <label>{category}</label>
                 </div>

@@ -5,7 +5,7 @@ import style from '../../styles/CustomerReview.module.css';
 const ReviewCard = ({ text }) => {
   return (
     <div className={style.review__card} >
-        <p className={style.review__details} >{text}</p>
+        <p className={style.review__details} >&ldquo;{text}&rdquo;</p>
         <div className={style.review__info} >
             <img src={devProfileImage} />
             <div>
