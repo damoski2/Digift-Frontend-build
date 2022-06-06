@@ -1,16 +1,57 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+*{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PolySans-Neutral';
 }
+
+:root {
+  /* Your default theme */
+  --background: white;
+  --foreground: black;
+}
+
+[data-theme='dark'] {
+  --background: black;
+  --foreground: white;
+}
+
+
+@font-face {
+  font-family: "PolySans-Median";
+  src: url("../fonts/PolySans-Median.eot");
+  src: url("../fonts/PolySans-Median.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PolySans-Median.woff2") format("woff2"),
+    url("../fonts/PolySans-Median.woff") format("woff"),
+    url("../fonts/PolySans-Median.ttf") format("truetype"),
+    url("../fonts/PolySans-Median.svg#PolySans-Median") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PolySans-Bold";
+  src: url("../fonts/PolySans-Bulky.otf");
+  src: url("../fonts/PolySans-Median.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PolySans-Bulky.woff") format("woff2"),
+    url("../fonts/PolySans-Bulky.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PolySans-Neutral";
+  src: url("../fonts/PolySans-Neutral.eot");
+  src: url("../fonts/PolySans-Neutral.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PolySans-Neutral.woff2") format("woff2"),
+    url("../fonts/PolySans-Neutral.woff") format("woff"),
+    url("../fonts/PolySans-Neutral.ttf") format("truetype"),
+    url("../fonts/PolySans-Neutral.svg#PolySans-Neutral") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+

@@ -1,0 +1,44 @@
+.interaction__cnt {
+  width: 90%;
+  margin: 0 auto 104px auto;
+  padding: 125px 104px;
+  background: linear-gradient(180deg, rgba(0, 115, 245, .85) 0%, rgba(0, 107, 224, .85) 100%),
+    url(https://res.cloudinary.com/oyindacodes/image/upload/v1654342145/Interactive_Spheres_-_Copy_10-512x512_1_iejoi1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 12px 0px #5CA5FF;
+  border-radius: 32px;
+}
+
+.interaction__cnt h1 {
+  margin: 0;
+  font-size: 64px;
+  font-family: 'PolySans-Bold';
+  color: #ffffff;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  width: 654px;
+}
+
+.interaction__cnt img{
+    margin-left: 20px;
+}
+
+
+@media(max-width:992px){
+    .interaction__cnt h1{
+        width: 100%;
+    }
+  }
+
+@media(max-width:768px){
+
+  .interaction__cnt{
+    padding: 125px 30px;
+  }
+
+  .interaction__cnt h1{
+    font-size: 56px;
+    text-align: center;
+  }
+}
