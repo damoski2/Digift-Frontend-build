@@ -1,12 +1,12 @@
 .main__cnt{
-    width: 95%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #F5F7FA;
-    padding: 24px 0 24px 0;
+    padding: 24px 45px 24px 45px;
     flex: 1;
 }
 
